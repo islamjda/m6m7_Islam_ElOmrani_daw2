@@ -5,4 +5,4 @@ de Desenvolupament en Entorn Servidor (M7). Back i front units.
 
 # DEFINICIÓ DEL PROJECTE
 Faré una galeria d'art, en la meva web es podran comprar i vendre obres d'art. Sobretot fotografies que és un art que m'agrada.
-Però hi haurà més categories com pintures i escultures, i subcategories com estils d'art o época.
+Però hi haurà més categories com pintures i escultures, i subcategories com estils d'art o època.

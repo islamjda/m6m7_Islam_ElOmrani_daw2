@@ -85,13 +85,8 @@ echo ("<body>");
  $usuari = $_GET['user'];
  $email = $_GET['email'];
  $pwd = $_GET['pwd'];
- if ($usuari == "pwd") {
-  header("Location: http://localhost/index.php", TRUE, 301);
-  exit();
-} else {
-  header("Location: http://localhost/login.php", TRUE, 301);
-  exit();
-}
+ 
+ 
 ?>
 </body>
 <script src="./main.js"></script>

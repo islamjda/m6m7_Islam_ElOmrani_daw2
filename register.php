@@ -16,7 +16,7 @@ echo ("<body>");
   </header>
   <div class="content">
     <div class="data">
-      <form action="register.php" method="POST">
+      <form action="./resultat.php" method="POST">
         <h1>Regístrate</h1>
         <input type="text" name="user" placeholder="Usuario" id="validationUsername" required>
         <div id="cname" class="emsg"></div>
@@ -24,7 +24,7 @@ echo ("<body>");
         <div id="cnumber" class="emsg"></div>
         <input type="password" name="pwd" placeholder="Contraseña" required>
         <div id="cnumber" class="emsg"></div>
-        <input type="password" name="pwd" placeholder="Repite la contraseña" required>
+        <input type="password" name="pwd2" placeholder="Repite la contraseña" required>
         <div id="cnumber" class="emsg"></div>
         <button type="submit">Continuar</button>
       </form>
@@ -63,7 +63,7 @@ echo ("<body>");
 <div class="menu">
   <ul>
     <li>
-      <a href="http://localhost/index.php">Home</a>
+      <a href="http://localhost/register.php">Home</a>
     </li>
     <li>
       <div class="dropdown">
@@ -81,13 +81,6 @@ echo ("<body>");
     <li><a href="#">Contacto</a></li>
   </ul>
 </div>
-<?php
- $usuari = $_GET['user'];
- $email = $_GET['email'];
- $pwd = $_GET['pwd'];
- 
- 
-?>
 </body>
 <script src="./main.js"></script>
 
